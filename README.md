@@ -1,4 +1,4 @@
-<p align="center"><img width=512 src="./images/cubebot_cover.png" alt="terminal view" /></p>
+<p align="center"><img  src="./images/cubebot_cover.png" alt="terminal view" /></p>
 <h1 align="center">cubebot</h1>
 
 ## About
