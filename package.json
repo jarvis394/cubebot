@@ -4,7 +4,7 @@
   "description": "Development side of strange villager that tells you something random 🤔",
   "main": "dist/src/index.js",
   "scripts": {
-    "start": "npm run start:dev",
+    "start": "npm run start:prod",
     "start:dev": "ts-node src/index.ts",
     "start:prod": "node .",
     "build": "tsc -b",
