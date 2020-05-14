@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2017",
+    "sourceMap": false,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "allowJs": true,
+    "paths": {
+      "@config/*": ["./src/config/*"],
+      "@globals/*": ["./src/globals/*"],
+      "@models/*": ["./src/models/*"],
+      "@interfaces/*": ["./src/interfaces/*"],
+      "@interfaces": ["./src/interfaces"],
+      "@structures/*": ["./src/structures/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@commands/*": ["./src/commands/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist", "**/*.test.(t|j)s", "test(s)"]
+}
