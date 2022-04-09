@@ -20,7 +20,7 @@
     "module-alias": "^2.2.2",
     "vk-io": "^4.0.0-rc.20",
     "winston": "^3.2.1",
-    "moment": "^2.25.3",
+    "moment": "^2.29.2",
     "canvas": "^2.6.1"
   },
   "engines": {
